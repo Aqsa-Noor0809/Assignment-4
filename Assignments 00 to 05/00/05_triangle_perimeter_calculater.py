@@ -7,7 +7,7 @@ def main():
     len3 = input("Enter the length of Third side: ")
     length3 : int = int(len3)
     result : int = length1 + length2 + length3
-    print("\nThe perimeter of the Triangle is " + str(result) + " . \n")
+    print(f"\nThe perimeter of the Triangle is \033[1;3m{result}\033[0m . \n")
 
 if __name__ == '__main__':
     main()
